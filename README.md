@@ -141,15 +141,18 @@ Clone the repository and run `npm update` for all the dependencies to be install
 sudo apt-get install git -y
 sudo apt install curl -y
 sudo apt-get install build-essential libssl-dev npm nodejs nodejs-legacy -y
-curl https://raw.githubusercontent.com/creationix/nvm/v0.16.1/install.sh | sh
-source ~/.profile
+cd ~
+curl -sL https://deb.nodesource.com/setup_16.x -o nodesource_setup.sh
+sudo bash nodesource_setup.sh
+sudo apt-get install nodejs -y
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+source ~/.bashrc
 nvm install 0.10.25
-nvm use 0.10.25
 git clone https://github.com/sumcoinlabs/unified-node-open-mining-portal.git unomp
 cd unomp
 npm update
 ```
-
+#### nvm list-remote
 #### 2) Configuration
 
 ##### Portal config
