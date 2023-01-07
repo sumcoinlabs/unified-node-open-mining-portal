@@ -138,7 +138,9 @@ a good pool operator. For starters be sure to read:
 Clone the repository and run `npm update` for all the dependencies to be installed:
 
 ```bash
-sudo apt-get install build-essential libssl-dev npm nodejs nodejs-legacy
+sudo apt-get install git -y
+sudo apt install curl -y
+sudo apt-get install build-essential libssl-dev npm nodejs nodejs-legacy -y
 curl https://raw.githubusercontent.com/creationix/nvm/v0.16.1/install.sh | sh
 source ~/.profile
 nvm install 0.10.25
