@@ -47,7 +47,7 @@
 "merged-pooler": "^1.0.1",
 "dateformat": "^3.0.3",
 "log4js": "^6.4.1",
-"bitcoin": "^0.5.5",
+"bitcoin": "3.0.3",
 "node-json-minify": "^1.1.0",
 "redis": "^3.3.3",
 "mysql": "^2.18.1",
