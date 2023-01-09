@@ -1,66 +1,66 @@
 {
-    "name": "unified-node-open-mining-portal",
-    "version": "1.0.0",
-    "description": "An extremely efficient, highly scalable, all-in-one, easy to setup cryptocurrency mining pool",
-    "keywords": [
-        "stratum",
-        "mining",
-        "pool",
-        "server",
-        "poolserver",
-        "bitcoin",
-        "litecoin",
-        "scrypt",
-	"merged",
-	"multipool",
-	"multicoin"
-    ],
-    "homepage": "https://github.com/UNOMP/unified-node-open-mining-portal",
-    "bugs": {
-        "url": "https://github.com/UNOMP/unified-node-open-mining-portal/issues"
-    },
-    "license": "GPL-2.0",
-    "contributors": [
-        "vekexasia",
-        "TheSeven",
-        "ahmed",
-	"zone117x",
-	"elitemobb",
-	"altnuts",
-	"infernoman",
-	"sigwo"
-    ],
-    "main": "init.js",
-    "bin": {
-        "block-notify": "./scripts/blockNotify.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/UNOMP/unified-node-open-mining-portal.git"
-    },
-    "dependencies": {
-        "merged-pooler": "*",
-	"bcrypt": "^5.1.0",    
-        "dateformat": "*",
-	"log4js": "*",
-	"bitcoin": "*",
-        "node-json-minify": "*",
-        "redis": "*",
-        "mysql": "*",
-        "async": "*",
-        "express": "*",
-        "body-parser": "*",
-        "compression": "*",
-        "dot": "*",
-        "newrelic": "*",
-        "colors": "*",
-        "node-watch": "*",
-        "request": "*",
-        "nonce": "*",
-        "bignum": "*",
-        "extend": "*"
-    },
-    "engines": {
-        "node": ">=14.21.2"
-    }
+"name": "unified-node-open-mining-portal",
+"version": "1.0.0",
+"description": "An extremely efficient, highly scalable, all-in-one, easy to setup cryptocurrency mining pool",
+"keywords": [
+"stratum",
+"mining",
+"pool",
+"server",
+"poolserver",
+"bitcoin",
+"litecoin",
+"scrypt",
+"merged",
+"multipool",
+"multicoin"
+],
+"homepage": "https://github.com/sumcoinlabs/unified-node-open-mining-portal",
+"bugs": {
+"url": "https://github.com/sumcoinlabs/unified-node-open-mining-portal/issues"
+},
+"license": "GPL-2.0",
+"contributors": [
+"vekexasia",
+"TheSeven",
+"ahmed",
+"zone117x",
+"elitemobb",
+"altnuts",
+"infernoman",
+"sigwo"
+],
+"main": "init.js",
+"bin": {
+"block-notify": "./scripts/blockNotify.js"
+},
+"repository": {
+"type": "git",
+"url": "https://github.com/sumcoinlabs/unified-node-open-mining-portal.git"
+},
+"dependencies": {
+"merged-pooler": "^1.0.1",
+"dateformat": "^3.0.3",
+"log4js": "^6.4.1",
+"bitcoin": "^0.5.5",
+"node-json-minify": "^1.1.0",
+"redis": "^3.3.3",
+"mysql": "^2.18.1",
+"async": "^3.2.0",
+"express": "^4.17.1",
+"body-parser": "^1.19.0",
+"compression": "^1.7.4",
+"dot": "^1.1.3",
+"newrelic": "^3.9.3",
+"colors": "^1.4.0",
+"node-watch": "^0.5.1",
+"request": "^2.88.2",
+"nonce": "^1.1.1",
+"bignum": "^0.12.5",
+"extend": "^3.0.2",
+"bcrypt": "^5.1.0"
+},
+"engines": {
+"node": ">=14.21.2"
+}
 }
