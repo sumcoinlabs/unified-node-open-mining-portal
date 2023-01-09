@@ -1,6 +1,11 @@
 {
 "name": "unified-node-open-mining-portal",
 "version": "1.0.0",
+    "binary": {
+    "module_name": "unomp",
+    "module_path": "lib/unomp.js",
+    "host": "http://127.0.0.1"
+  },
 "description": "An extremely efficient, highly scalable, all-in-one, easy to setup cryptocurrency mining pool",
 "keywords": [
 "stratum",
