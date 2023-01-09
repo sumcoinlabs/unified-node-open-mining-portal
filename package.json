@@ -61,7 +61,7 @@
 "node-watch": "^0.5.1",
 "request": "^2.88.2",
 "nonce": "^1.1.1",
-"bignum": "^0.12.5",
+"bignum": "0.13.1",
 "extend": "^3.0.2",
 "graceful-fs": "4.2.10",    
 "bcrypt": "^5.1.0"
