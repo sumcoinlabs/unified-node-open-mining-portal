@@ -44,7 +44,7 @@
 "url": "https://github.com/sumcoinlabs/unified-node-open-mining-portal.git"
 },
 "dependencies": {
-"merged-pooler": "^1.0.1",
+"merged-pooler": "0.5.0",
 "dateformat": "^3.0.3",
 "log4js": "^6.4.1",
 "bitcoin": "3.0.3",
